@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#navigation {
+	display: flex;
+	height: 5%;
+	width: 100%;
+	background-color: rgb(223, 109, 16);
+	align-content: center;
+	justify-content: space-between;
+}
+#navigation h1 {
+	font-family: "RocknRoll One", sans-serif;
+	font-size: 5em;
+	margin-left: 2em;
+	color: honeydew;
+}
+
+#menu {
+	margin-right: 2em;
+	width: 50rem;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.menuItem {
+	font-size: 3em;
+	display: flex;
+	align-content: center;
+	list-style: none;
+	padding-top: 10%;
+}
+a {
+	color: honeydew;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
