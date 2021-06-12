@@ -26,17 +26,32 @@ body {
 }
 
 .menuItem {
-	font-size: 3em;
-	display: flex;
+	font-size: 40px;
+	display: block;
+	transition: all 0.07s;
 	align-content: center;
 	list-style: none;
-	padding-top: 10%;
+	flex-wrap: wrap;
 }
+
+.menuLink {
+	font-size: 40px;
+	transition: all 0.07s;
+	align-content: center;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+.menuHover {
+	font-size: 45px;
+	color: black;
+}
+
 a {
 	color: honeydew;
 	text-decoration: none;
 }
-a:hover {
+/*a:hover {
 	color: black;
 	text-decoration: underline;
-}
+}*/
